@@ -92,11 +92,7 @@ module Graphviz
 		
 		# Dump the value to dot text format.
 		def dump_value(value)
-			if Symbol === value
-				value.to_s
-			else
-				value.inspect
-			end
+			value.to_s.inspect
 		end
 		
 		# Dump the attributes to dot text format.

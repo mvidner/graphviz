@@ -46,7 +46,7 @@ module Graphviz
 		
 		# @return [String] A convenient ASCII arrow.
 		def to_s
-			"#{@source} -> #{@destination}"
+			"#{@source.to_s.inspect} -> #{@destination.to_s.inspect}"
 		end
 	end
 end
