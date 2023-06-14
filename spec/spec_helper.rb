@@ -1,6 +1,8 @@
 
 require "bundler/setup"
-require "covered"
+
+require "simplecov"
+SimpleCov.start
 
 Thread.abort_on_exception = true
 

@@ -20,6 +20,6 @@ Gem::Specification.new do |spec|
 	spec.add_dependency "process-pipeline"
 	
 	spec.add_development_dependency "bundler"
-	spec.add_development_dependency "covered"
+	spec.add_development_dependency "simplecov"
 	spec.add_development_dependency "rspec", "~> 3.6"
 end
